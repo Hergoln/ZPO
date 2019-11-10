@@ -1,0 +1,42 @@
+{
+  "słowo": {
+    "answer": "word",
+    "point": 1.0
+  },
+  "tworzyć": {
+    "answer": "CrETa",
+    "point": 0.0
+  },
+  "odkryć": {
+    "answer": "discove",
+    "point": 0.5
+  },
+  "ukryć": {
+    "answer": "hid",
+    "point": 0.5
+  },
+  "otrzymać": {
+    "answer": "receive",
+    "point": 1.0
+  },
+  "sprzedać": {
+    "answer": "sell",
+    "point": 1.0
+  },
+  "krzyk": {
+    "answer": "shhout",
+    "point": 1.0
+  },
+  "rozważać": {
+    "answer": "",
+    "point": 0.0
+  },
+  "przenieść": {
+    "answer": "move",
+    "point": 1.0
+  },
+  "rozbić": {
+    "answer": "break",
+    "point": 1.0
+  }
+}

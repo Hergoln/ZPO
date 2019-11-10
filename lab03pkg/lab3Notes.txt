@@ -1,0 +1,4 @@
+- Start kolarza: co 1 minutę
+- plik z nazwiskami ma być za kazdym razem pobierany z URL'a
+- czas ma być losowany o rozkładzie Gaussa
+- 1 sekunda czasu rzeczywistego to 25 sekund czasu symulowanego

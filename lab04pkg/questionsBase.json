@@ -1,0 +1,88 @@
+{
+  "questions" : 
+  [
+    {
+      "word" : "słowo",
+      "answers" : [
+        "word"
+      ]
+    },
+    {
+      "word" : "krzyk",
+      "answers" : [
+        "cry",
+        "scream",
+        "shout"
+      ]
+    },
+    {
+      "word" : "otrzymać",
+      "answers" : [
+        "get",
+        "receive",
+        "obtain",
+        "acquire",
+        "procure"
+      ]
+    },
+    {
+      "word" : "przenieść",
+      "answers" : [
+        "carry",
+        "move",
+        "transfer",
+        "shift",
+        "transmit"
+      ]
+    },
+    {
+      "word" : "rozbić",
+      "answers" : [
+        "break",
+        "smash",
+        "crash",
+        "shatter"
+      ]
+    },
+    {
+      "word" : "rozważać",
+      "answers" : [
+        "consider",
+        "meditate",
+        "ponder",
+        "reflect",
+        "contemplate"
+      ]
+    },
+    {
+      "word" : "tworzyć",
+      "answers" : [
+        "create",
+        "make",
+        "form"
+      ]
+    },
+    {
+      "word" : "odkryć",
+      "answers" : [
+        "discover",
+        "uncover",
+        "find"
+      ]
+    },
+    {
+      "word" : "ukryć",
+      "answers" : [
+        "hide",
+        "conceal"
+      ]
+    },
+        {
+      "word" : "sprzedać",
+      "answers" : [
+        "sell",
+        "dispose"
+      ]
+    }
+  ]
+}

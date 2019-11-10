@@ -1,0 +1,55 @@
+{
+  "słowo": [
+    "word"
+  ],
+  "krzyk": [
+    "cry",
+    "scream",
+    "shout"
+  ],
+  "otrzymać": [
+    "get",
+    "receive",
+    "obtain",
+    "acquire",
+    "procure"
+  ],
+  "przenieść": [
+    "carry",
+    "move",
+    "transfer",
+    "shift",
+    "transmit"
+  ],
+  "rozbić": [
+    "break",
+    "smash",
+    "crash",
+    "shatter"
+  ],
+  "rozważać": [
+    "consider",
+    "meditate",
+    "ponder",
+    "reflect",
+    "contemplate"
+  ],
+  "tworzyć": [
+    "create",
+    "make",
+    "form"
+  ],
+  "odkryć": [
+    "discover",
+    "uncover",
+    "find"
+  ],
+  "ukryć": [
+    "hide",
+    "conceal"
+  ],
+  "sprzedać": [
+    "sell",
+    "dispose"
+  ]
+}

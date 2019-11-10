@@ -1,0 +1,18 @@
+{
+  "questions" : [
+    {
+      "question" : "słowo",
+      "answers" : [
+        "word"
+      ]
+    },
+    {
+      "question": "krzyk",
+      "answers": [
+        "cry",
+        "scream",
+        "shout"
+      ]
+    }
+  ]
+}
