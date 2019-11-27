@@ -9,17 +9,24 @@ public class BiBaby
     public static void doStuff(double start, double end, double step, double epsilon)
     {
         ArrayList<Double> xAxis = new ArrayList<>();
-        int x0;
+        int x0; // index
+        boolean rising = fn(start) < fn(end);
         while(start <= end)
         {
             xAxis.add(start);
             start += step;
         }
 
-        x0 = Collections.binarySearch(
-                Lists.transform(xAxis, x -> ((x + 5.) * (x + 5.) - 6)),
-                0.,
-                (Double a, Double b) -> Math.abs(a - b) <= epsilon ? 0 : a - b < -epsilon ? -1 : 1);
+        if(rising)
+            x0 = Collections.binarySearch(
+                    Lists.transform(xAxis, x -> ((x + 5.) * (x + 5.) - 6)),
+                    0.,
+                    (Double a, Double b) -> Math.abs(a - b) <= Math.abs(epsilon) ? 0 : a - b < -Math.abs(epsilon) ? -1 : 1);
+        else
+            x0 = Collections.binarySearch(
+                    Lists.transform(xAxis, x -> ((x + 5.) * (x + 5.) - 6)),
+                    0.,
+                    (Double a, Double b) -> Math.abs(a - b) <= Math.abs(epsilon) ? 0 : a - b < -Math.abs(epsilon) ? 1 : -1);
 
         if(x0 >= 0 && x0 < xAxis.size())
         {
@@ -28,5 +35,10 @@ public class BiBaby
         }
         else
             System.out.println("Zero points not found");
+    }
+
+    private static Double fn(Double x)
+    {
+        return (x + 5.) * (x + 5.) - 6;
     }
 }

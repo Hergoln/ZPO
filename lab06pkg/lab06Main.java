@@ -12,6 +12,6 @@ public class lab06Main
         // funkcja ((x + 5) ^ 2) - 6
         // wierchołek funkcji (-5, -6)
         // miejsce zerowe (-2.551, 0)
-        BiBaby.doStuff(-4, -1, 0.01, 0.1);
+        BiBaby.doStuff(-10, -6, 0.01, 0.1);
     }
 }
