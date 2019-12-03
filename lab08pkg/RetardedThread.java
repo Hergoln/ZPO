@@ -15,8 +15,9 @@ public class RetardedThread
             Runnable r = new Retard(strings[i], lock, i);
             pool.submit(r);
         }
-        pool.shutdown();
 
+
+        pool.shutdown();
     }
 
     public class Retard implements Runnable
