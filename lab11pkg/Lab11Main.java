@@ -1,4 +1,6 @@
 package com.company.lab11pkg;
 
-public class Lab11Main {
+public class Lab11Main
+{
+
 }
